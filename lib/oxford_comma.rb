@@ -4,7 +4,11 @@ def oxford_comma(array)
   elsif array.size == 2 
     return array.join(" and ")
   elsif array.size == 3
-    return (array.last).join(" and ")
+    #grab all elements except for the last
+    array.
+    #join those elements in a string and save that as a local_variables
+    #add the and and the last element
+    return array.join(" and ")
   end
 end
 
