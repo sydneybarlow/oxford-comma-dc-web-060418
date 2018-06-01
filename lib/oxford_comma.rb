@@ -11,6 +11,14 @@ def oxford_comma(array)
     #add the and and the last element
     together = new_array + ", and " + last_element
     return together
+  else array.size > 3
+    #grab all elements except for the last
+    last_element = array.pop
+    #join those elements in a string and save that as a local_variables
+    new_array = array.join(", ")
+    #add the and and the last element
+    together = new_array + ", and " + last_element
+    return together
   end
 end
 
