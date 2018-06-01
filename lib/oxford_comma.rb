@@ -9,7 +9,7 @@ def oxford_comma(array)
     #join those elements in a string and save that as a local_variables
     new_array = array.join(", ")
     #add the and and the last element
-    together = new_array + " and " + last_element
+    together = new_array + ", and " + last_element
     return together
   end
 end
