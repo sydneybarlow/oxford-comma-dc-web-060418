@@ -3,7 +3,7 @@ def oxford_comma(array)
     return array.join
   elsif array.size == 2 
     return array.join(" and ")
-  elsif array.size == 3
+  elsif array.size == (3.. 
     #grab all elements except for the last
     last_element = array.pop
     #join those elements in a string and save that as a local_variables
